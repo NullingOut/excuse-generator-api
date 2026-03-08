@@ -1,0 +1,22 @@
+{
+  "school": [
+    "My dog ate my homework.",
+    "My WiFi stopped working when I opened the assignment.",
+    "My laptop updated for 6 hours."
+  ],
+  "work": [
+    "The code worked yesterday.",
+    "My computer compiled emotionally but not technically.",
+    "It works on my machine."
+  ],
+  "life": [
+    "Mercury is in retrograde.",
+    "I forgot I exist.",
+    "The universe told me to rest."
+  ],
+  "dev": [
+    "It works on my machine.",
+    "The bug fixed itself yesterday.",
+    "I accidentally optimized the bug."
+  ]
+}
