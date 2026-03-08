@@ -35,10 +35,10 @@ app.get("/excuse/random", (req, res) => {
 app.get("/excuse/:category", (req, res) => {
     const category = req.params.category.toLowerCase();
 
-    if (!excuses[category]) {
-        return res.status(404).json({
-            error: "Category not found"
-        });
+    const ALLOWED_CATEGORIES = new Set(Object.keys(excuses));
+
+    if (!ALLOWED_CATEGORIES.has(category)) {
+        return res.status(404).json({ error: "Category not found" });
     }
 
     res.json({
